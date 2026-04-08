@@ -13,7 +13,7 @@
     "install_type": "openclaw",
     "size": "0.202",
     "changelog": "初始版本"
-},
+    },
     "xxclaw": {
     "display_name": "XXClaw",
     "platform": [
@@ -28,7 +28,7 @@
     "install_type": "xxclaw",
     "size": "0.104",
     "changelog": "初始版本"
-},
+    },
     "webops": {
     "display_name": "webops",
     "platform": [
