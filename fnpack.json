@@ -8,11 +8,11 @@
         "bug_report_url": "https://github.com/slepoh/FnDepot/OC-Deploy/issues",
         "install_type": "Agent",
         "size": "0.202",
-        "changelog": "支持skills"
+        "changelog": "支持skills的安装、卸载，适配多种技能库"
     },
     "xxclaw": {
         "display_name": "XXClaw",
-        "desc": "飞牛docker容器 OpenClaw 应用，提供 Web 管理界面",
+        "desc": "飞牛docker容器 OpenClaw 应用，提供 Web 管理界面，UI非常精美",
         "labels": "工具,效率,AI",
         "version": "1.0.1",
         "author": "slepoh",
@@ -43,7 +43,7 @@
     },
     "kvmm": {
         "display_name": "虚拟机M",
-        "desc": "适配飞牛移动端访问虚拟机应用",
+        "desc": "自适应飞牛移动端访问虚拟机应用",
         "labels": "工具,效率",
         "version": "1.0.1",
         "author": "slepoh",
@@ -63,7 +63,7 @@
         "bug_report_url": "https://github.com/slepoh/FnDepot/lxmusic/issues",
         "install_type": "音乐",
         "size": "0.3",
-        "changelog": "初始版本",
+        "changelog": "初始版本。打包出现的bug问题可在主页与我留言",
         "arch_diff": {
             "x86": {
                 "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lx-music-1.8.3-arm.fpk"
@@ -75,7 +75,7 @@
     },
     "webops": {
         "display_name": "webops",
-        "desc": "简易php站点，含Nginx、Docker容器 (mysql + phpmyadmin)、PHP",
+        "desc": "简易php站点，含Nginx、Docker容器 (mysql + phpmyadmin)、PHP，可无限建站",
         "labels": "工具,服务器管理,监控,建站",
         "version": "1.0.0",
         "author": "slepoh",
