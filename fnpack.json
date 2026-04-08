@@ -1,6 +1,6 @@
 {
   "OC-Deploy": {
-    "display_name": "OpenClaw",
+    "display_name": "OC-Deploy",
     "platform": [
       "x86",
       "arm"
@@ -13,6 +13,21 @@
     "install_type": "Agent",
     "size": "0.202",
     "changelog": "支持skills"
+    },
+  "xx-openclaw": {
+    "display_name": "xx-openclaw",
+    "platform": [
+      "x86",
+      "arm"
+    ],
+    "desc": "将 OpenClaw Gateway 封装为 fnOS FPK 应用，并提供 Web 管理界面<br>特性：<p>一键部署 - 通过 fnOS 应用中心快速安装</p>",
+    "labels": "工具,效率,AI",
+    "version": "1.0.4",
+    "author": "slepoh",
+    "bug_report_url": "https://github.com/slepoh/FnDepot/xx-openclaw/issues",
+    "install_type": "Agent",
+    "size": "0.202",
+    "changelog": "初始版本"
     },
     "xxclaw": {
     "display_name": "XXClaw",
