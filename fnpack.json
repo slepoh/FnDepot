@@ -53,6 +53,17 @@
         "size": "3.96",
         "changelog": "初始版本"
     },
+    "lxmusic": {
+        "display_name": "LX-Music",
+        "desc": "洛雪音乐飞牛版",
+        "labels": "音乐",
+        "version": "1.8.3",
+        "author": "slepoh",
+        "bug_report_url": "https://github.com/slepoh/FnDepot/lxmusic/issues",
+        "install_type": "音乐",
+        "size": "0.3",
+        "changelog": "初始版本"
+    },
     "webops": {
         "display_name": "webops",
         "desc": "简易php站点，含Nginx、Docker容器 (mysql + phpmyadmin)、PHP",
