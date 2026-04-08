@@ -56,13 +56,22 @@
     "lxmusic": {
         "display_name": "LX-Music",
         "desc": "洛雪音乐飞牛版",
+        "platform": ["x86", "arm"],
         "labels": "音乐",
         "version": "1.8.3",
         "author": "slepoh",
         "bug_report_url": "https://github.com/slepoh/FnDepot/lxmusic/issues",
         "install_type": "音乐",
         "size": "0.3",
-        "changelog": "初始版本"
+        "changelog": "初始版本",
+        "arch_diff": {
+            "x86": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/refs/heads/main/lxmusic/lx-music-1.8.3-arm.fpk"
+            },
+            "arm": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/raw/refs/heads/main/lxmusic/lx-music-1.8.3-x86.fpk"
+            }
+        }
     },
     "webops": {
         "display_name": "webops",
