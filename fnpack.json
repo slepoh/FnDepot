@@ -56,7 +56,7 @@
     "webops": {
         "display_name": "webops",
         "desc": "简易php站点，含Nginx、Docker容器 (mysql + phpmyadmin)、PHP",
-        "labels": "工具,建站",
+        "labels": "工具,服务器管理,监控,建站",
         "version": "1.0.0",
         "author": "slepoh",
         "bug_report_url": "https://github.com/slepoh/FnDepot/webops/issues",
