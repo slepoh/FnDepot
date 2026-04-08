@@ -51,6 +51,21 @@
     "size": "0.104",
     "changelog": "初始版本"
     },
+    "kvmm": {
+    "display_name": "虚拟机M",
+    "platform": [
+      "x86",
+      "arm"
+    ],
+    "desc": "适配飞牛移动端访问虚拟机应用",
+    "labels": "工具,效率",
+    "version": "1.0.1",
+    "author": "slepoh",
+    "bug_report_url": "https://github.com/slepoh/FnDepot/kvmm/issues",
+    "install_type": "工具",
+    "size": "0.104",
+    "changelog": "初始版本"
+    },
     "webops": {
     "display_name": "webops",
     "platform": [
@@ -60,7 +75,7 @@
     "desc": "简易php站点，含Nginx、Docker容器 (mysql + phpmyadmin)、PHP",
     "labels": "工具,建站",
     "version": "1.0.0",
-    "author": "slepoh",
+    "author": "slepoh"，
     "bug_report_url": "https://github.com/slepoh/FnDepot/webops/issues",
     "install_type": "站长工具",
     "size": "0.389",
