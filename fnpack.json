@@ -1,10 +1,6 @@
 {
   "OC-Deploy": {
     "display_name": "OC-Deploy",
-    "platform": [
-      "x86",
-      "arm"
-    ],
     "desc": "将 OpenClaw Gateway 封装为 fnOS FPK 应用，并提供 Web 管理界面<br>特性：<p>一键部署 - 通过 fnOS 应用中心快速安装</p><p>可视化管理 - 直观的 Web 控制面板</p><p>多模型支持 - 轻松配置 OpenAI、Claude 等多种 AI 模型</p><p>多渠道接入 - 支持 Telegram、Discord、飞书、QQ 等消息平台</p><p>实时监控 - Gateway 状态、CPU、内存实时监控</p><p>配置管理 - 可视化编辑器 + JSON 导入导出</p><p>技能系统 - 支持技能的安装与管理、更新</p><p>一键更新openclaw到最新</p>",
     "labels": "工具,效率,AI",
     "version": "1.2.3",
@@ -35,13 +31,10 @@
     "install_type": "Agent",
     "size": "0.134",
     "changelog": "初始版本"
+    }
     },
     "xxclaw": {
     "display_name": "XXClaw",
-    "platform": [
-      "x86",
-      "arm"
-    ],
     "desc": "飞牛docker容器 OpenClaw 应用，提供 Web 管理界面",
     "labels": "工具,效率,AI",
     "version": "1.0.1",
