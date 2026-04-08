@@ -1,4 +1,4 @@
-# FnDepot 应用源构建规范
+# FnDepot 应用源自用仓（禁止外传，禁用商业用途）
 
 ## 1. 概述 (Overview)
 
