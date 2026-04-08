@@ -21,6 +21,26 @@
         "size": "0.104",
         "changelog": "初始版本"
     },
+    "xx-openclaw": {
+        "display_name": "xx-openclaw",
+        "platform": ["x86", "arm"],
+        "desc": "将 OpenClaw Gateway 封装为飞牛应用，并提供 Web 管理界面<br>特性：<p>一键部署 - 通过 fnOS 应用中心快速安装</p>",
+        "labels": "工具,效率,AI",
+        "version": "1.0.4",
+        "author": "slepoh",
+        "bug_report_url": "https://github.com/slepoh/FnDepot/xx-openclaw/issues",
+        "install_type": "Agent",
+        "size": "0.134",
+        "changelog": "初始版本",
+        "arch_diff": {
+            "x86": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/openclaw/xx-openclaw-v1.0.4-x86-03142051.fpk"
+            },
+            "arm": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/openclaw/xx-openclaw-v1.0.4-arm-03142051.fpk"
+            }
+        }
+    },
     "kvmm": {
         "display_name": "虚拟机M",
         "desc": "适配飞牛移动端访问虚拟机应用",
