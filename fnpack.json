@@ -114,7 +114,7 @@
         }
     },
     "apps": {
-        "display_name": "Apps Store"，
+        "display_name": "Apps Store",
         "desc": "面向飞牛 fnOS 用户的第三方应用打包仓库。自动跟踪上游版本，构建可直接安装的 .fpk 包。",
         "platform": ["x86", "arm"],
         "labels": "工具,效率,应用",
