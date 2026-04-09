@@ -54,7 +54,7 @@
         "changelog": "初始版本"
     },
     "lxmusic": {
-        "display_name": "LX-Music",
+        "display_name": "LX_Music",
         "desc": "一个功能强大的 Web 音乐播放器，让你可以随时随地在浏览器中享受音乐。同时，它也是一个增强版的 LX Music 数据同步服务端。支持洛雪音源，可自定义导入第三方音源。",
         "platform": ["x86", "arm"],
         "labels": "音乐,播放器,music",
@@ -72,6 +72,30 @@
                 "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lx-music-1.8.3-x86.fpk"
             }
         }
+    },
+    "ai-draw-io": {
+        "display_name": "AI绘图",
+        "desc": "借助这个项目，你可以： 🧠 使用自然语言直接生成流程图、架构图 ✨ 通过 AI 自动优化和补全图表结构 ⚡ 快速修改、扩展已有图形，大幅提升效率 🌐 在浏览器中完成一切，无需复杂客户端",
+        "platform": ["x86", "arm"],
+        "labels": "工具,效率,设计",
+        "version": "1.0.2",
+        "author": "slepoh",
+        "bug_report_url": "https://github.com/slepoh/FnDepot/ai-draw-io/issues",
+        "install_type": "工具",
+        "size": "0.18",
+        "changelog": "初始版本"
+    },
+    "cover": {
+        "display_name": "封面设计",
+        "desc": "一个免费、漂亮的封面生成器，基于 rutikwankhade/CoverView 全新架构升级.",
+        "platform": ["x86", "arm"],
+        "labels": "工具,效率,设计",
+        "version": "1.0.1",
+        "author": "slepoh",
+        "bug_report_url": "https://github.com/slepoh/FnDepot/cover/issues",
+        "install_type": "工具",
+        "size": "0.16",
+        "changelog": "初始版本"
     },
     "webops": {
         "display_name": "webops",
