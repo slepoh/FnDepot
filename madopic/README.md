@@ -1,14 +1,9 @@
 # Madopic
 
 > Madopic，精美的 Markdown 转图片工具 🎨
-
-![](https://pic4.zhimg.com/v2-a342a311176f76e4120b7084d9f18db3_r.jpg)
-
 :::card info
 一个现代化的在线工具，可以将 Markdown 文本转换为精美的图片海报，适合社交媒体分享。
 :::
-
-
 ## 🚀 主要功能
 
 - 将 Markdown 内容转化为图文海报
