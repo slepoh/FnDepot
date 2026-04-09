@@ -94,7 +94,7 @@
         }
     },
     "cover": {
-        "display_name": "封面设计"，
+        "display_name": "封面设计",
         "desc": "一个免费、漂亮的封面生成器，基于 rutikwankhade/CoverView 全新架构升级.",
         "platform": ["x86", "arm"],
         "labels": "工具,效率,设计",
