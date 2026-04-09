@@ -47,7 +47,7 @@
         "labels": "工具,效率",
         "version": "1.0.1",
         "author": "slepoh",
-        "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tool/fnos_kvmm_v1.0.1-x86.fpk",
+        "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/kmv/fnos_kvmm_v1.0.1-x86.fpk",
         "bug_report_url": "https://github.com/slepoh/FnDepot/kvmm/issues",
         "install_type": "工具",
         "size": "3.96",
@@ -110,6 +110,26 @@
             },
             "arm": {
                 "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/cover-1.0.1-arm.fpk"
+            }
+        }
+    },
+    "apps": {
+        "display_name": "Apps Store"，
+        "desc": "面向飞牛 fnOS 用户的第三方应用打包仓库。自动跟踪上游版本，构建可直接安装的 .fpk 包。",
+        "platform": ["x86", "arm"],
+        "labels": "工具,效率,应用",
+        "version": "1.7.6",
+        "author": "conversun",
+        "bug_report_url": "https://github.com/conversun/fnos-apps/issues",
+        "install_type": "工具",
+        "size": "5.4",
+        "changelog": "自动构建的 fnOS 安装包",
+        "arch_diff": {
+            "x86": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/conversun/fnos-apps/releases/download/fnos-apps-store/v1.7.6/fnos-apps-store_1.7.6_x86.fpk"
+            },
+            "arm": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/conversun/fnos-apps/releases/download/fnos-apps-store/v1.7.6/fnos-apps-store_1.7.6_arm.fpk"
             }
         }
     },
