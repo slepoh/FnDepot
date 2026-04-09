@@ -66,10 +66,10 @@
         "changelog": "初始版本。打包出现的bug问题可在主页与我留言",
         "arch_diff": {
             "x86": {
-                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lxmusic-1.8.3-arm.fpk"
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lxmusic-1.8.3-x86.fpk"
             },
             "arm": {
-                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lxmusic-1.8.3-x86.fpk"
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lxmusic-1.8.3-arm.fpk"
             }
         }
     },
@@ -83,10 +83,18 @@
         "bug_report_url": "https://github.com/slepoh/FnDepot/ai-draw-io/issues",
         "install_type": "工具",
         "size": "0.18",
-        "changelog": "初始版本"
+        "changelog": "初始版本",
+        "arch_diff": {
+            "x86": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/next-ai-draw-io-1.0.2-x86.fpk"
+            },
+            "arm": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/next-ai-draw-io-1.0.2-arm.fpk"
+            }
+        }
     },
     "cover": {
-        "display_name": "封面设计",
+        "display_name": "封面设计"，
         "desc": "一个免费、漂亮的封面生成器，基于 rutikwankhade/CoverView 全新架构升级.",
         "platform": ["x86", "arm"],
         "labels": "工具,效率,设计",
@@ -95,7 +103,15 @@
         "bug_report_url": "https://github.com/slepoh/FnDepot/cover/issues",
         "install_type": "工具",
         "size": "0.16",
-        "changelog": "初始版本"
+        "changelog": "初始版本",
+        "arch_diff": {
+            "x86": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/cover-1.0.1-x86.fpk"
+            },
+            "arm": {
+                "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/cover-1.0.1-arm.fpk"
+            }
+        }
     },
     "webops": {
         "display_name": "webops",
