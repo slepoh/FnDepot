@@ -44,7 +44,7 @@
     "madopic": {
         "display_name": "Markdown转图片",
         "desc": "精美的 Markdown 转图片工具。🎨一个现代化的在线工具，可以将 Markdown 文本转换为精美的图片海报，适合社交媒体分享。",
-        "labels": "工具,效率",
+        "labels": "工具,效率,编辑器,图片,图文,海报,卡片",
         "version": "1.0.0",
         "author": "slepoh",
         "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/madopic-1.0.0.fpk",
