@@ -165,6 +165,17 @@
             }
         }
     },
+    "tools": {
+        "display_name": "IT工具箱",
+        "desc": "站长离线工具箱，JSON格式化、代码加密解密、base64转换、封面制作、html编辑等数十款工具。",
+        "labels": "工具,效率,AI",
+        "version": "0.0.1",
+        "author": "slepoh",
+        "bug_report_url": "https://github.com/slepoh/FnDepot/tools/issues",
+        "install_type": "Agent",
+        "size": "22.24",
+        "changelog": "初始版本"
+    },
     "openclaw-doc": {
         "display_name": "OpenClaw离线手册",
         "desc": "OpenClaw离线手册",
