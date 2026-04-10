@@ -87,7 +87,7 @@
     },
     "ai-draw-io": {
         "display_name": "AI绘图",
-        "desc": "借助这个项目，你可以： 🧠 使用自然语言直接生成流程图、架构图 ✨ 通过 AI 自动优化和补全图表结构 ⚡ 快速修改、扩展已有图形，大幅提升效率 🌐 在浏览器中完成一切，无需复杂客户端",
+        "desc": "借助这个项目，你可以： 🧠 使用自然语言直接生成流程图、架构图 ✨ 通过 AI 自动优化和补全图表结构 ⚡ 快速修改、扩展已有图形，大幅提升效率 🌐 在浏览器中完成一切，无需复杂客户端"，
         "platform": ["x86", "arm"],
         "labels": "工具,效率,设计",
         "version": "1.0.2",
@@ -164,6 +164,17 @@
                 "download_url": "https://cdn.gh-proxy.org/https://github.com/conversun/fnos-apps/releases/download/fnos-apps-store/v1.7.6/fnos-apps-store_1.7.6_arm.fpk"
             }
         }
+    },
+    "openclaw-doc": {
+        "display_name": "OpenClaw离线手册",
+        "desc": "OpenClaw离线手册",
+        "labels": "工具,效率,AI",
+        "version": "0.0.1",
+        "author": "slepoh",
+        "bug_report_url": "https://github.com/slepoh/FnDepot/openclaw-doc/issues",
+        "install_type": "Agent",
+        "size": "1.76",
+        "changelog": "初始版本"
     },
     "webops": {
         "display_name": "webops",
