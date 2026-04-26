@@ -70,7 +70,7 @@
         "desc": "一个功能强大的 Web 音乐播放器，让你可以随时随地在浏览器中享受音乐。同时，它也是一个增强版的 LX Music 数据同步服务端。支持洛雪音源，可自定义导入第三方音源。",
         "platform": ["x86", "arm"],
         "labels": "音乐,播放器,music",
-        "version": "1.8.3",
+        "version": "1.9.1",
         "author": "slepoh",
         "bug_report_url": "https://github.com/slepoh/FnDepot/lxmusic/issues",
         "install_type": "音乐",
