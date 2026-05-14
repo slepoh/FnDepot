@@ -10,6 +10,17 @@
         "size": "0.202",
         "changelog": "支持skills的安装、卸载，适配多种技能库"
     },
+    "Hermes": {
+        "display_name": "Hermes Agent",
+        "desc": "Hermes Agent (爱马仕)新一代智能体应用。具备自我迭代能力的 AI 智能体。拥有跨会话持续累积的分层记忆系统、离线状态下仍可触发的定时任务调度器，以及能自动保存可复用执行流程的技能体系。",
+        "labels": "工具,效率,AI",
+        "version": "1.0.0",
+        "author": "slepoh",
+        "bug_report_url": "https://github.com/slepoh/FnDepot/Hermes/issues",
+        "install_type": "工具",
+        "size": "0.14",
+        "changelog": "初始版本"
+    },
     "xxclaw": {
         "display_name": "XXClaw",
         "desc": "飞牛docker容器 OpenClaw 应用，提供 Web 管理界面，UI非常精美",
