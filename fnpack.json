@@ -2,43 +2,23 @@
   "schema_version": "2",
   "source_info": {
     "name": "运营程序猿",
-    "author": "slepoh",
-    "homepage": "https://823331.xyz",
-    "description": "飞牛 FnDepot 外部源自用包"
+    "author": "slepoh"
   },
   "apps": {
     "OC-Deploy": {
       "display_name": "OC-Deploy",
       "desc": "将 OpenClaw Gateway 封装为 fnOS FPK 应用，并提供 Web 管理界面<br>特性：<p>一键部署 - 通过 fnOS 应用中心快速安装</p><p>可视化管理 - 直观的 Web 控制面板</p><p>多模型支持 - 轻松配置 OpenAI、Claude 等多种 AI 模型</p><p>多渠道接入 - 支持 Telegram、Discord、飞书、QQ 等消息平台</p><p>实时监控 - Gateway 状态、CPU、内存实时监控</p><p>配置管理 - 可视化编辑器 + JSON 导入导出</p><p>技能系统 - 支持技能的安装与管理、更新</p><p>一键更新openclaw到最新</p>",
-      "platform": ["x86", "arm"],
+      "platform": ["all"],
       "categories": ["AI赋能"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/OC-Deploy/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.2.3": {
-          "changelog": "支持skills的安装、卸载，适配多种技能库",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
-            "x86": {
-              "download_url": "",
-              "sha256": "",
-              "size": 202000
-            },
-            "arm": {
-              "download_url": "",
-              "sha256": "",
-              "size": 202000
+            "all": {
+              "download_url": ""
             }
           }
         }
@@ -47,30 +27,17 @@
     "Hermes": {
       "display_name": "Hermes Agent",
       "desc": "Hermes Agent (爱马仕)新一代智能体应用。具备自我迭代能力的 AI 智能体。拥有跨会话持续累积的分层记忆系统、离线状态下仍可触发的定时任务调度器，以及能自动保存可复用执行流程的技能体系。",
-      "platform": ["x86", "arm"],
+      "platform": ["all"],
       "categories": ["AI赋能"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/Hermes/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.0.0": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "all": {
-              "download_url": "",
-              "sha256": "",
-              "size": 140000
+              "download_url": ""
             }
           }
         }
@@ -79,30 +46,17 @@
     "xxclaw": {
       "display_name": "XXClaw",
       "desc": "飞牛docker容器 OpenClaw 应用，提供 Web 管理界面，UI非常精美",
-      "platform": ["x86", "arm"],
+      "platform": ["all"],
       "categories": ["AI赋能"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/xxclaw/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.0.1": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "all": {
-              "download_url": "",
-              "sha256": "",
-              "size": 104000
+              "download_url": ""
             }
           }
         }
@@ -114,32 +68,17 @@
       "platform": ["x86", "arm"],
       "categories": ["AI赋能"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/xx-openclaw/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.0.4": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "x86": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/openclaw/xx-openclaw-v1.0.4-x86-03142051.fpk",
-              "sha256": "",
-              "size": 134000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/openclaw/xx-openclaw-v1.0.4-x86-03142051.fpk"
             },
             "arm": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/openclaw/xx-openclaw-v1.0.4-arm-03142051.fpk",
-              "sha256": "",
-              "size": 134000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/openclaw/xx-openclaw-v1.0.4-arm-03142051.fpk"
             }
           }
         }
@@ -148,30 +87,17 @@
     "lijin": {
       "display_name": "电子礼薄",
       "desc": "电子礼薄，红白喜事礼金薄，快速导出PDF和EXCEL，数据本地化。",
-      "platform": ["x86", "arm"],
+      "platform": ["all"],
       "categories": ["生活服务"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/lijin/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.0.0": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "all": {
-              "download_url": "",
-              "sha256": "",
-              "size": 1160000
+              "download_url": ""
             }
           }
         }
@@ -180,30 +106,17 @@
     "madopic": {
       "display_name": "Markdown转图片",
       "desc": "精美的 Markdown 转图片工具。🎨一个现代化的在线工具，可以将 Markdown 文本转换为精美的图片海报，适合社交媒体分享。",
-      "platform": ["x86", "arm"],
+      "platform": ["all"],
       "categories": ["系统工具"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/madopic/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.0.0": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "all": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/madopic-1.0.0.fpk",
-              "sha256": "",
-              "size": 140000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/madopic-1.0.0.fpk"
             }
           }
         }
@@ -215,27 +128,14 @@
       "platform": ["x86"],
       "categories": ["系统工具"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/kvmm/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.0.1": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "x86": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/kmv/fnos_kvmm_v1.0.1-x86.fpk",
-              "sha256": "",
-              "size": 3960000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/kmv/fnos_kvmm_v1.0.1-x86.fpk"
             }
           }
         }
@@ -247,32 +147,17 @@
       "platform": ["x86", "arm"],
       "categories": ["生活服务"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/lxmusic/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "音乐",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.9.1": {
-          "changelog": "初始版本。打包出现的bug问题可在主页与我留言",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "x86": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lxmusic-1.8.3-x86.fpk",
-              "sha256": "",
-              "size": 300000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lxmusic-1.8.3-x86.fpk"
             },
             "arm": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lxmusic-1.8.3-arm.fpk",
-              "sha256": "",
-              "size": 300000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/music/lxmusic-1.8.3-arm.fpk"
             }
           }
         }
@@ -284,32 +169,17 @@
       "platform": ["x86", "arm"],
       "categories": ["AI赋能"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/ai-draw-io/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.0.2": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "x86": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/next-ai-draw-io-1.0.2-x86.fpk",
-              "sha256": "",
-              "size": 180000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/next-ai-draw-io-1.0.2-x86.fpk"
             },
             "arm": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/next-ai-draw-io-1.0.2-arm.fpk",
-              "sha256": "",
-              "size": 180000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/next-ai-draw-io-1.0.2-arm.fpk"
             }
           }
         }
@@ -321,32 +191,17 @@
       "platform": ["x86", "arm"],
       "categories": ["系统工具"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/cover/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.0.1": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "x86": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/cover-1.0.1-x86.fpk",
-              "sha256": "",
-              "size": 160000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/cover-1.0.1-x86.fpk"
             },
             "arm": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/cover-1.0.1-arm.fpk",
-              "sha256": "",
-              "size": 160000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/tools/cover-1.0.1-arm.fpk"
             }
           }
         }
@@ -358,32 +213,17 @@
       "platform": ["x86", "arm"],
       "categories": ["AI赋能"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/conversun/slepoh/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "影视",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "0.4.1": {
-          "changelog": "自动构建的 fnOS 安装包",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "x86": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/download/waoowaoo-0.4.1-x86.fpk",
-              "sha256": "",
-              "size": 210000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/download/waoowaoo-0.4.1-x86.fpk"
             },
             "arm": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/download/waoowaoo-0.4.1-arm.fpk",
-              "sha256": "",
-              "size": 210000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/slepoh/FnDepot/releases/download/download/waoowaoo-0.4.1-arm.fpk"
             }
           }
         }
@@ -395,32 +235,17 @@
       "platform": ["x86", "arm"],
       "categories": ["系统工具"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/conversun/fnos-apps/issues",
-      "maintainer": "conversun",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.7.6": {
-          "changelog": "自动构建的 fnOS 安装包",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "x86": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/conversun/fnos-apps/releases/download/fnos-apps-store/v1.7.6/fnos-apps-store_1.7.6_x86.fpk",
-              "sha256": "",
-              "size": 5400000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/conversun/fnos-apps/releases/download/fnos-apps-store/v1.7.6/fnos-apps-store_1.7.6_x86.fpk"
             },
             "arm": {
-              "download_url": "https://cdn.gh-proxy.org/https://github.com/conversun/fnos-apps/releases/download/fnos-apps-store/v1.7.6/fnos-apps-store_1.7.6_arm.fpk",
-              "sha256": "",
-              "size": 5400000
+              "download_url": "https://cdn.gh-proxy.org/https://github.com/conversun/fnos-apps/releases/download/fnos-apps-store/v1.7.6/fnos-apps-store_1.7.6_arm.fpk"
             }
           }
         }
@@ -429,30 +254,17 @@
     "tools": {
       "display_name": "IT工具箱",
       "desc": "站长离线工具箱，JSON格式化、代码加密解密、base64转换、封面制作、html编辑等数十款工具。",
-      "platform": ["x86", "arm"],
+      "platform": ["all"],
       "categories": ["系统工具"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/tools/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "0.0.1": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "all": {
-              "download_url": "",
-              "sha256": "",
-              "size": 22240000
+              "download_url": ""
             }
           }
         }
@@ -461,30 +273,17 @@
     "openclaw-doc": {
       "display_name": "OpenClaw离线手册",
       "desc": "OpenClaw离线手册",
-      "platform": ["x86", "arm"],
+      "platform": ["all"],
       "categories": ["AI赋能"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/openclaw-doc/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "0.0.1": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "all": {
-              "download_url": "",
-              "sha256": "",
-              "size": 1760000
+              "download_url": ""
             }
           }
         }
@@ -493,30 +292,17 @@
     "webops": {
       "display_name": "webops",
       "desc": "简易php站点，含Nginx、Docker容器 (mysql + phpmyadmin)、PHP，可无限建站",
-      "platform": ["x86", "arm"],
+      "platform": ["all"],
       "categories": ["编程开发"],
       "icon_url": "",
-      "preview_urls": [],
-      "readme_url": "",
-      "bug_report_url": "https://github.com/slepoh/FnDepot/webops/issues",
-      "maintainer": "slepoh",
-      "maintainer_url": "",
-      "distributor": "slepoh",
-      "distributor_url": "",
       "run_as": "package",
       "install_type": "站长工具",
       "is_docker": false,
-      "service_port": "",
       "releases": {
         "1.0.0": {
-          "changelog": "初始版本",
-          "updated_at": "",
-          "os_min_version": "1.0.0",
           "packages": {
             "all": {
-              "download_url": "",
-              "sha256": "",
-              "size": 389000
+              "download_url": ""
             }
           }
         }
