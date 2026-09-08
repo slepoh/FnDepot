@@ -10,7 +10,7 @@
       "desc": "将 OpenClaw Gateway 封装为 fnOS FPK 应用，并提供 Web 管理界面<br>特性：<p>一键部署 - 通过 fnOS 应用中心快速安装</p><p>可视化管理 - 直观的 Web 控制面板</p><p>多模型支持 - 轻松配置 OpenAI、Claude 等多种 AI 模型</p><p>多渠道接入 - 支持 Telegram、Discord、飞书、QQ 等消息平台</p><p>实时监控 - Gateway 状态、CPU、内存实时监控</p><p>配置管理 - 可视化编辑器 + JSON 导入导出</p><p>技能系统 - 支持技能的安装与管理、更新</p><p>一键更新openclaw到最新</p>",
       "platform": ["all"],
       "categories": ["AI赋能"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/OC-Deploy/ICON.PNG",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
@@ -18,7 +18,7 @@
         "1.2.3": {
           "packages": {
             "all": {
-              "download_url": ""
+              "download_url": "https://github.com/slepoh/FnDepot/blob/main/OC-Deploy/OC-Deploy.fpk"
             }
           }
         }
@@ -29,7 +29,7 @@
       "desc": "Hermes Agent (爱马仕)新一代智能体应用。具备自我迭代能力的 AI 智能体。拥有跨会话持续累积的分层记忆系统、离线状态下仍可触发的定时任务调度器，以及能自动保存可复用执行流程的技能体系。",
       "platform": ["all"],
       "categories": ["AI赋能"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/Hermes/ICON.PNG",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
@@ -37,7 +37,7 @@
         "1.0.0": {
           "packages": {
             "all": {
-              "download_url": ""
+              "download_url": "https://github.com/slepoh/FnDepot/blob/main/Hermes/Hermes.fpk"
             }
           }
         }
@@ -48,7 +48,7 @@
       "desc": "飞牛docker容器 OpenClaw 应用，提供 Web 管理界面，UI非常精美",
       "platform": ["all"],
       "categories": ["AI赋能"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/xxclaw/ICON.PNG",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
@@ -56,7 +56,7 @@
         "1.0.1": {
           "packages": {
             "all": {
-              "download_url": ""
+              "download_url": "https://github.com/slepoh/FnDepot/blob/main/xxclaw/xxclaw.fpk"
             }
           }
         }
@@ -67,7 +67,7 @@
       "desc": "将 OpenClaw Gateway 封装为飞牛应用，并提供 Web 管理界面<br>特性：<p>一键部署 - 通过 fnOS 应用中心快速安装</p>",
       "platform": ["x86", "arm"],
       "categories": ["AI赋能"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/xx-openclaw/ICON.PNG",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
@@ -89,7 +89,7 @@
       "desc": "电子礼薄，红白喜事礼金薄，快速导出PDF和EXCEL，数据本地化。",
       "platform": ["all"],
       "categories": ["生活服务"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/lijin/ICON.PNG",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
@@ -97,7 +97,7 @@
         "1.0.0": {
           "packages": {
             "all": {
-              "download_url": ""
+              "download_url": "https://github.com/slepoh/FnDepot/blob/main/lijin/lijin.fpk"
             }
           }
         }
@@ -108,7 +108,7 @@
       "desc": "精美的 Markdown 转图片工具。🎨一个现代化的在线工具，可以将 Markdown 文本转换为精美的图片海报，适合社交媒体分享。",
       "platform": ["all"],
       "categories": ["系统工具"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/madopic/ICON.PNG",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
@@ -127,7 +127,7 @@
       "desc": "自适应飞牛移动端访问虚拟机应用",
       "platform": ["x86"],
       "categories": ["系统工具"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/kvmm/ICON.PNG",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
@@ -146,7 +146,7 @@
       "desc": "一个功能强大的 Web 音乐播放器，让你可以随时随地在浏览器中享受音乐。同时，它也是一个增强版的 LX Music 数据同步服务端。支持洛雪音源，可自定义导入第三方音源。",
       "platform": ["x86", "arm"],
       "categories": ["生活服务"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/lxmusic/ICON.PNG",
       "run_as": "package",
       "install_type": "音乐",
       "is_docker": false,
@@ -168,7 +168,7 @@
       "desc": "借助这个项目，你可以： 🧠 使用自然语言直接生成流程图、架构图 ✨ 通过 AI 自动优化和补全图表结构 ⚡ 快速修改、扩展已有图形，大幅提升效率 🌐 在浏览器中完成一切，无需复杂客户端",
       "platform": ["x86", "arm"],
       "categories": ["AI赋能"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/ai-draw-io/ICON.PNG",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
@@ -190,7 +190,7 @@
       "desc": "一个免费、漂亮的封面生成器，基于 rutikwankhade/CoverView 全新架构升级.",
       "platform": ["x86", "arm"],
       "categories": ["系统工具"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/cover/ICON.PNG",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
@@ -212,7 +212,7 @@
       "desc": "一款基于 AI 技术的短剧/漫画视频制作工具，支持从小说文本自动生成分镜、角色、场景，并制作成完整视频。",
       "platform": ["x86", "arm"],
       "categories": ["AI赋能"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/waoo/ICON.PNG",
       "run_as": "package",
       "install_type": "影视",
       "is_docker": false,
@@ -234,7 +234,7 @@
       "desc": "面向飞牛 fnOS 用户的第三方应用打包仓库。自动跟踪上游版本，构建可直接安装的 .fpk 包。",
       "platform": ["x86", "arm"],
       "categories": ["系统工具"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/apps/ICON.PNG",
       "run_as": "package",
       "install_type": "工具",
       "is_docker": false,
@@ -256,7 +256,7 @@
       "desc": "站长离线工具箱，JSON格式化、代码加密解密、base64转换、封面制作、html编辑等数十款工具。",
       "platform": ["all"],
       "categories": ["系统工具"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/tools/ICON.PNG",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
@@ -264,7 +264,7 @@
         "0.0.1": {
           "packages": {
             "all": {
-              "download_url": ""
+              "download_url": "https://github.com/slepoh/FnDepot/blob/main/tools/tools.fpk"
             }
           }
         }
@@ -275,7 +275,7 @@
       "desc": "OpenClaw离线手册",
       "platform": ["all"],
       "categories": ["AI赋能"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/openclaw-doc/ICON.PNG",
       "run_as": "package",
       "install_type": "Agent",
       "is_docker": false,
@@ -283,7 +283,7 @@
         "0.0.1": {
           "packages": {
             "all": {
-              "download_url": ""
+              "download_url": "https://github.com/slepoh/FnDepot/blob/main/openclaw-doc/openclaw-doc.fpk"
             }
           }
         }
@@ -294,7 +294,7 @@
       "desc": "简易php站点，含Nginx、Docker容器 (mysql + phpmyadmin)、PHP，可无限建站",
       "platform": ["all"],
       "categories": ["编程开发"],
-      "icon_url": "",
+      "icon_url": "https://github.com/slepoh/FnDepot/blob/main/webops/ICON.PNG",
       "run_as": "package",
       "install_type": "站长工具",
       "is_docker": false,
@@ -302,7 +302,7 @@
         "1.0.0": {
           "packages": {
             "all": {
-              "download_url": ""
+              "download_url": "https://github.com/slepoh/FnDepot/blob/main/webops/webops.fpk"
             }
           }
         }
