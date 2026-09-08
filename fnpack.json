@@ -1,4 +1,11 @@
 {
+  "schema_version": "2",
+  "source_info": {
+    "name": "运营程序猿",
+    "author": "slepoh",
+    "homepage": "https://823331.xyz",
+    "description": "飞牛 FnDepot 外部源自用包"
+  },
   "apps":{
     "OC-Deploy": {
         "display_name": "OC-Deploy",
