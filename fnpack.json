@@ -1,9 +1,4 @@
 {
-  "schema_version": "2",
-  "source_info": {
-    "name": "https://github.com/slepoh/FnDepot",
-    "author": "运营程序猿"
-  },
   "apps":{
     "OC-Deploy": {
         "display_name": "OC-Deploy",
